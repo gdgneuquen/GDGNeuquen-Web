@@ -6,12 +6,14 @@ import { CarrouselHomeComponent } from './screens/home/carrousel-home/carrousel-
 import { HomeNextEventComponent } from './screens/home/home-next-event/home-next-event.component';
 import { HomeComunitiesComponent } from './screens/home/home-comunities/home-comunities.component';
 import { HomeSponsorsComponent } from './screens/home/home-sponsors/home-sponsors.component';
+import { MaterialModule } from '../material/material.module';
 
 @NgModule({
   declarations: [HomeComponent, CarrouselHomeComponent, HomeNextEventComponent, HomeComunitiesComponent, HomeSponsorsComponent],
   imports: [
     CommonModule,
-    CoreRoutingModule
+    CoreRoutingModule,
+    MaterialModule
   ]
 })
 export class CoreModule { }

@@ -2,9 +2,9 @@
     margin-left: auto;
     margin-right: auto;
 }
-.rowQuickAcces{
+
+.rowQuickAcces {
     width: 100%;
-    height: 40vh;
     display: -webkit-box;
     /* OLD - iOS 6-, Safari 3.1-6 */
     display: -moz-box;
@@ -17,8 +17,24 @@
     /* NEW, Spec - Opera 12.1, Firefox 20+ */
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    margin-top: 16px;
     margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.nextEvent {
+    width: 30%;
+    min-width: 280px;
+}
+
+.comunities {
+    width: 30%;
+    min-width: 280px;
+}
+
+.sponsors {
+    width: 30%;
+    min-width: 280px;
 }
 
 /* SMALL */
@@ -54,7 +70,7 @@
 
 @media screen and (max-width: 1920px) and (min-width: 1366px) {
     .container {
-        width: 85%;
+        width: 90%;
     }
 }
 
@@ -62,6 +78,6 @@
 
 @media screen and (min-width: 1920px) {
     .container {
-        width: 80%;
+        width: 85%;
     }
 }

@@ -1,3 +1,50 @@
-<p>
-  home-comunities works!
-</p>
+<div class="container">
+  <h2 class="mat-title" style="color: #0D9D58">Comunidades GDG </h2>
+
+
+  <mat-card class="cardListTelegram">
+    <mat-list>
+      <mat-list-item (click)="openGroup(0)" style="cursor: pointer">
+        <img mat-list-icon style="height: 50px; width: 50px;" src="./assets/images/Telegram_logo.svg">
+        <h4 mat-line> GDG Neuquen</h4>
+        <p mat-line style="opacity: 0.7;"> Grupo General </p>
+        <mat-icon class="iconArrow">keyboard_arrow_right</mat-icon>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item (click)="openGroup(1)" style="cursor: pointer">
+        <img mat-list-icon style="height: 50px; width: 50px;" src="./assets/images/Telegram_logo.svg">
+        <h4 mat-line> Nuevas Tecnologías</h4>
+        <p mat-line style="opacity: 0.7;"> Tecnologías Web (Angular, React,…) </p>
+        <mat-icon class="iconArrow">keyboard_arrow_right</mat-icon>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item (click)="openGroup(2)" style="cursor: pointer">
+        <img mat-list-icon style="height: 50px; width: 50px;" src="./assets/images/Telegram_logo.svg">
+        <h4 mat-line> Android Dojo</h4>
+        <p mat-line style="opacity: 0.7;"> Desarrollo Movil </p>
+        <mat-icon class="iconArrow">keyboard_arrow_right</mat-icon>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item (click)="openGroup(3)" style="cursor: pointer">
+        <img mat-list-icon style="height: 50px; width: 50px;" src="./assets/images/Telegram_logo.svg">
+        <h4 mat-line> IOT (Internet de las cosas)</h4>
+        <p mat-line style="opacity: 0.7;"> Grupo Desarrollo Arduino, Raspberry Pi </p>
+        <mat-icon class="iconArrow">keyboard_arrow_right</mat-icon>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item (click)="openGroup(4)" style="cursor: pointer">
+        <img mat-list-icon style="height: 50px; width: 50px;" src="./assets/images/Telegram_logo.svg">
+        <h4 mat-line> Seguridad informatica NQN</h4>
+        <p mat-line style="opacity: 0.7;"> Seguridad Informatica para desarrolladores </p>
+        <mat-icon class="iconArrow">keyboard_arrow_right</mat-icon>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item (click)="openGroup(5)" style="cursor: pointer">
+        <img mat-list-icon style="height: 50px; width: 50px;" src="./assets/images/Telegram_logo.svg">
+        <h4 mat-line> GameDev Neuquen</h4>
+        <p mat-line style="opacity: 0.7;"> Desarrollo de VideoJuegos </p>
+        <mat-icon class="iconArrow">keyboard_arrow_right</mat-icon>
+      </mat-list-item>
+    </mat-list>
+  </mat-card>
+</div>
