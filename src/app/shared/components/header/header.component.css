@@ -1,0 +1,27 @@
+.toolbar {
+    position: absolute;
+    top: 0;
+    height: 50px;
+    background-color: #fff;
+}
+.navigationContainer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;
+    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Chrome */
+    display: flex;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgLogo {
+    width: 25%;
+}
