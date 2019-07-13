@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: 'src/app/core/core.module#CoreModule',
+    loadChildren: () => import('src/app/core/core.module').then(m => m.CoreModule),
     // canActivate: [NgxPermissionsGuard],
     // data: {
     //   permissions: {
