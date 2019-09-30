@@ -1,5 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { MaterialModule } from '../../../../material/material.module';
 import { HomeNextEventComponent } from './home-next-event.component';
 
 describe('HomeNextEventComponent', () => {
@@ -8,9 +8,10 @@ describe('HomeNextEventComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HomeNextEventComponent ]
+      declarations: [HomeNextEventComponent],
+      imports: [MaterialModule]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
